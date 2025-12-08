@@ -34,6 +34,11 @@ npm run dev
 
 ## Screenshots
 
-  ![Dashboard](public/screenshots/dashboard.png)
-  ![Inventory](public/screenshots/inventory.png)
-  ![Add-Product](public/screenshots/add-product.png)
+### [Dashboard](/app/dashboard)
+![Dashboard](public/screenshots/dashboard.png)
+
+### [Inventory](/app/inventory)
+![Inventory](public/screenshots/inventory.png)
+
+### [Add Product](/app/add-product)
+![Add-Product](public/screenshots/add-product.png)
