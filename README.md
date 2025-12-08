@@ -34,11 +34,11 @@ npm run dev
 
 ## Screenshots
 
-### [Dashboard](/app/dashboard)
+### [Dashboard](/app/dashboard/page.tsx)
 ![Dashboard](public/screenshots/dashboard.png)
 
-### [Inventory](/app/inventory)
+### [Inventory](/app/inventory/page.tsx)
 ![Inventory](public/screenshots/inventory.png)
 
-### [Add Product](/app/add-product)
+### [Add Product](/app/add-product/page.tsx)
 ![Add-Product](public/screenshots/add-product.png)
