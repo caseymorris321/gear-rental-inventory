@@ -34,7 +34,7 @@ function LoadingSidebar() {
         <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
           Inventory
         </div>
-        {navigation.map((item) => {
+        {navigation.map((item: (typeof navigation)[number]) => {
           const IconComponent = item.icon;
           return (
             <Link

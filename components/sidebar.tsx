@@ -26,7 +26,7 @@ export default function Sidebar({
         <div className="text-sm font-semibold text-gray-400 uppercase">
           Inventory
         </div>
-        {navigation.map((item, key) => {
+        {navigation.map((item: (typeof navigation)[number], key: number) => {
           const IconComponent = item.icon;
           const isActive = currentPath === item.href;
           return (

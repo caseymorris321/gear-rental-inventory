@@ -65,7 +65,7 @@ export default function Pagination({
         Previous
       </Link>
 
-      {visiblePages.map((page, key) => {
+      {visiblePages.map((page: string | number, key: number) => {
         if (page === "...") {
           return (
             <span key={key} className="px-3 py-2 text-sm text-gray-500">

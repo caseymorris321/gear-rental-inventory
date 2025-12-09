@@ -153,7 +153,7 @@ export default async function InventoryPage({
               </thead>
 
               <tbody className="bg-white divide-y divide-gray-200">
-                {items.map((product, key) => (
+                {items.map((product: (typeof items)[number], key: number) => (
                   <tr key={key} className="hover:bg-gray-50">
                     <td className="px-6 py-4 text-sm text-gray-500">
                       {product.name}
