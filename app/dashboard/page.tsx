@@ -58,12 +58,16 @@ export default async function DashboardPage() {
     }),
   ]);
 
-  const availableCount = allProducts.filter((p) => !p.checkedOutTo).length;
+  const availableCount = allProducts.filter(
+    (p: (typeof allProducts)[number]) => !p.checkedOutTo
+  ).length;
   const checkedOutCount = allProducts.filter(
-    (p) => p.checkedOutTo && p.returnDate && p.returnDate >= new Date()
+    (p: (typeof allProducts)[number]) =>
+      p.checkedOutTo && p.returnDate && p.returnDate >= new Date()
   ).length;
   const overdueCount = allProducts.filter(
-    (p) => p.checkedOutTo && p.returnDate && p.returnDate < new Date()
+    (p: (typeof allProducts)[number]) =>
+      p.checkedOutTo && p.returnDate && p.returnDate < new Date()
   ).length;
 
   const availablePercentage =
