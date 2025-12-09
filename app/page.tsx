@@ -20,7 +20,7 @@ export default async function Home() {
             Gear Rental Inventory
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Track your rental gear, manage checkouts, and never lose track of overdue returns. Built for rental businesses that need a simple way to know what's available.
+            Track your rental gear, manage checkouts, and never lose track of overdue returns. Built for rental businesses that need a simple way to know what&apos;s available.
           </p>
           <div className="flex gap-4 justify-center">
             <Link

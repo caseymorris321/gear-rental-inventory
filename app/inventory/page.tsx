@@ -205,7 +205,7 @@ export default async function InventoryPage({
                           dailyRate: Number(product.dailyRate),
                         }}
                       />
-                      <DeleteButton id={product.id} action={deleteProduct} />
+                      <DeleteButton id={product.id} name={product.name} action={deleteProduct} />
                     </td>
                   </tr>
                 ))}
