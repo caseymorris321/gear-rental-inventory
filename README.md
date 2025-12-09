@@ -18,6 +18,10 @@ Rental businesses lose money when staff don't know what's available, overdue ite
 
 I focused on showing the most critical info immediately: what's overdue, what's coming back soon. Checkout and check-in are single-click actions because rental staff don't have time for multi-step forms. Delete confirmations, required fields, and clear status indicators prevent the kind of mistakes that happen when things get busy.
 
+## Hosted At
+
+https://gear-rental-inventory.vercel.app/
+
 ## Tech Stack
 
 Next.js 15 (App Router, Server Actions), TypeScript, Prisma with PostgreSQL, Stack Auth, and Tailwind CSS.
