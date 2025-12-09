@@ -140,7 +140,7 @@ export default async function DashboardPage() {
               {availableGear.length === 0 ? (
                 <p className="text-sm text-gray-500">No gear available</p>
               ) : (
-                availableGear.map((item, key) => (
+                availableGear.map((item: (typeof availableGear)[number], key: number) => (
                   <div
                     key={key}
                     className="flex items-center justify-between p-3 rounded-lg bg-green-50"
@@ -177,7 +177,7 @@ export default async function DashboardPage() {
               {upcomingReturns.length === 0 ? (
                 <p className="text-sm text-gray-500">No upcoming returns</p>
               ) : (
-                upcomingReturns.map((item, key) => (
+                upcomingReturns.map((item: (typeof upcomingReturns)[number], key: number) => (
                   <div
                     key={key}
                     className="flex items-center justify-between p-3 rounded-lg bg-blue-50"
@@ -217,7 +217,7 @@ export default async function DashboardPage() {
               {overdueItems.length === 0 ? (
                 <p className="text-sm text-gray-500">No overdue items</p>
               ) : (
-                overdueItems.map((item, key) => (
+                overdueItems.map((item: (typeof overdueItems)[number], key: number) => (
                   <div
                     key={key}
                     className="flex items-center justify-between p-3 rounded-lg bg-red-50"
