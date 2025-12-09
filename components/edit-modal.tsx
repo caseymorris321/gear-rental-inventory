@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { updateProduct } from "@/lib/actions/products";
-import { Product } from "@prisma/client";
 
 export default function EditModal({
   product,
