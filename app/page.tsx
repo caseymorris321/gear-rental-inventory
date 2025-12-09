@@ -17,12 +17,10 @@ export default async function Home() {
         <div className="text-center">
           <Package className="w-16 h-16 text-purple-600 mx-auto mb-4" />
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Inventory Management
+            Gear Rental Inventory
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Streamline your inventory tracking with our powerful, easy-to-use
-            management system. Track products, monitor stock levels, and gain
-            valuable insights.
+            Track your rental gear, manage checkouts, and never lose track of overdue returns. Built for rental businesses that need a simple way to know what's available.
           </p>
           <div className="flex gap-4 justify-center">
             <Link
