@@ -1,6 +1,6 @@
 # Gear Rental Inventory
 
-A rental inventory management system built to solve a real business problem: tracking gear availability, managing checkouts, and preventing overdue returns.
+A rental inventory management system built to solve a real business problem: tracking gear availability, managing checkouts, and staying on top of overdue returns.
 
 ## The Problem I Solved
 
