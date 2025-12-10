@@ -80,7 +80,7 @@ export default async function DashboardPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Sidebar currentPath="/dashboard" />
-      <main className="ml-64 p-8">
+      <main className="md:ml-64 p-4 pt-16 md:pt-8 md:p-8">
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center justify-between">
@@ -100,7 +100,7 @@ export default async function DashboardPage() {
           <h2 className="text-lg font-semibold text-gray-900 mb-6">
             Key Metrics
           </h2>
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-3 md:gap-6">
             <div className="text-center">
               <div className="text-3xl font-bold text-green-600">
                 {availableCount}

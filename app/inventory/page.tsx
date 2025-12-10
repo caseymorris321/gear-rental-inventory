@@ -51,7 +51,7 @@ export default async function InventoryPage({
   return (
     <div className="min-h-screen bg-gray-50">
       <Sidebar currentPath="/inventory" />
-      <main className="ml-64 p-8">
+      <main className="md:ml-64 p-4 pt-16 md:pt-8 md:p-8">
         <div className="mb-8">
           <div className="flex items-center justify-between">
             <div>
@@ -80,7 +80,7 @@ export default async function InventoryPage({
             </form>
           </div>
 
-          <div className="flex gap-2 mt-4">
+          <div className="flex flex-wrap gap-2 mt-4">
             <a
               href="/inventory"
               className={`px-3 py-1 rounded-full text-sm ${
@@ -124,8 +124,8 @@ export default async function InventoryPage({
           </div>
 
           {/* Products Table */}
-          <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
-            <table className="w-full">
+          <div className="bg-white rounded-lg border border-gray-200 overflow-x-auto">
+            <table className="w-full min-w-[700px]">
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">

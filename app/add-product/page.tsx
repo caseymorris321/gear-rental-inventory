@@ -9,7 +9,7 @@ export default async function AddProductPage() {
     <div className="min-h-screen bg-gray-50">
       <Sidebar currentPath="/add-product" />
 
-      <main className="ml-64 p-8">
+      <main className="md:ml-64 p-4 pt-16 md:pt-8 md:p-8">
         <div className="mb-8">
           <div className="flex items-center justify-between">
             <div>
